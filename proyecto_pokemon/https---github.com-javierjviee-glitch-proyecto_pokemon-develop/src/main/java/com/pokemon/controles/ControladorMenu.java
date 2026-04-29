@@ -5,6 +5,7 @@ import com.pokemon.datos.DataLoader;
 import com.pokemon.modelo.Pokemon;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -16,6 +17,9 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 public class ControladorMenu {
+
+    @FXML private FlowPane botRepositorio;
+    private Button<Repository> ;
 
     @FXML private FlowPane containerPokemon;
     private List<Pokemon> listaPokemons;
